@@ -255,7 +255,8 @@
             <i class="bi bi-code-slash text-primary" style="font-size: 150%;"></i>
           </a>
           <span class="mb-3 mb-md-0 text-body-light">
-              &copy; 2023 Joan David Plazas
+              <span id="añoActual"></span>
+              Joan David Plazas
           </span>
         </div>
     
@@ -266,5 +267,11 @@
     </div>
 
     <script src="assets/index.js"></script>
+    <script>
+        const fechaActual = new Date();
+        const añoActual = fechaActual.getFullYear();
+        // Actualiza el contenido del elemento con id "añoActual"
+        document.getElementById("añoActual").textContent = añoActual;
+    </script>
 </body>
 </html>

@@ -12,3 +12,8 @@ function ocultarTexto() {
     const textoSuave = document.getElementById('texto-suave');
     textoSuave.style.display = '0';
 }
+
+function fechaActual(){
+    const fechaActual = new Date();
+    const añoActual = fechaActual.getFullYear();
+}
