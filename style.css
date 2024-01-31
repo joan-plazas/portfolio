@@ -1,8 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
 
 .navbar {
-    background-color: rgba(8, 45, 100, 0.8);/* 0.5 equivale al 50% de opacidad */
+    background-color: rgba(90, 156, 255, 0.8);
     backdrop-filter: blur(5px);
+}
+
+.text-custom {
+    color: #5cabff;
+}
+
+.bg-blue-white {
+    background-color: #589eff18;
+    border-radius: 50px;
+}
+
+.btn-custom {
+    background-color: #1f73f1;
+}
+
+.idea-custom {
+    background-color: #90c0ff;
+    padding: 40px;
+    border-radius: 5px 50px 50px 50px;
 }
 
 .container-fluid {
@@ -12,6 +31,19 @@
 #img {
     transition: 0.3s;
     animation: changeShadow 10s ease infinite;
+}
+
+#img-dev {
+    border-radius: 10px 10px 10px 100px;
+}
+
+.bg-custom {
+    background-color: #90ceff;
+}
+
+#aboutMeText {
+    padding: 50px;
+    border-radius: 5px 100px 100px 100px;
 }
 
 @keyframes changeShadow {
@@ -37,8 +69,8 @@
 }
 
 #btn:hover {
-    box-shadow: 0px 10px 30px 5px #00c6ff;
-    -webkit-box-shadow: 0px 10px 30px 5px #00c6ff;
+    box-shadow: 0px 10px 30px 5px #bdd8ff;
+    -webkit-box-shadow: 0px 10px 30px 5px #bdd8ff;
     border: solid 100px white;
 }
 
@@ -61,24 +93,21 @@
 
 @keyframes changeColor {
     0% {
-        color: #0072ff; /* Azul */
+        color: #0088ff; 
     }
     20% {
-        color: #00c6ff; /* Azul claro */
+        color: #a9ff8f; 
     }
     40% {
-        color: #ff5733; /* Rojo */
+        color: #89ff5b; 
     }
     60% {
-        color: #ffac33; /* Naranja */
+        color: #f58aff; 
     }
     80% {
-        color: #d61bd6; /* Magenta */
+        color: #db4aff; 
     }
     100% {
-        color: #0072ff; /* Azul */
+        color: #0088ff; 
     }
 }
-
-  
-
